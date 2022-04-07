@@ -1,9 +1,7 @@
 	#include <stdio.h>
        /*
-	* main - Entry point
-	*
-	* This is simple c program to display some text using puts function
-	*
+	* main - write '"Programming is like building a multilingual puzzle'
+	* Return:Always 0 (success)
 	*/
 	int main(void)
 	{
