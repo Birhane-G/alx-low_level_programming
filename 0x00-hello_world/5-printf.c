@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - write 'with proper grammar, but the outcome is a piece of art,' 
+ * main - write "with proper grammar, but the outcome is a piece of art," 
  *
- * return Allways 0 (success)
+ * Return: Allways 0 (success)
  *
  */
 int main(void)
