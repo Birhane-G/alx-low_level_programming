@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - main block
- * 
+ * main - Entry point
+ * this programm to assign a random number to variable
  * Return: 0
  */
 int main(void)
