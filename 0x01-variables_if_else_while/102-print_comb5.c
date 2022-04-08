@@ -17,7 +17,7 @@ while (f < 10)
 {
 	e = 0;
 	while (e < 10)
-i	{
+	{
 		d = 0;
 		while (d < 10)
 		{
