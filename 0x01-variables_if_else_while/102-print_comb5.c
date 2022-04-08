@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *main - entry point
- * This program print all posible combination 
- * of twao digit numbers
+ *This program print all posible combination
+ *of twao digit numbers
  *Return:0 - success
  *
  */
