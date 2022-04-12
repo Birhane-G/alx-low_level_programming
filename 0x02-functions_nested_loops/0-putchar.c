@@ -1,22 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - done deal
  *
+ * Return: 0 always
  *
- * return 0 Always(success)
  */
 int main(void)
 {
-	char a[8] = "_putchar";
-	int i = 0;
-
-	while(i < 9)
-	{
-		putchar(a[i]);
-		i++;
-	}
-
-	putchar('\n');
+	printf("_putchar\n");
 	return (0);
 }
