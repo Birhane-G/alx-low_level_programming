@@ -5,23 +5,14 @@
  *
  * return: Always 0.
  */
-void print_alphabet();
-
-int main()
-{
-
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(){
 
   char a = 'a';
 
   while(a <= 'z')
   {
-	  putchar(a);
+	  _putchar(a);
 	  a++;
   }
-	putchar('\n');
+	_putchar('\n');
 }
