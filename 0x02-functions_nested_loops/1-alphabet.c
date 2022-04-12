@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - print alphabet 
  *
- * return: Always 0.
+ * return: none
  */
 
 void print_alphabet(void)
