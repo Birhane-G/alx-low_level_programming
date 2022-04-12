@@ -3,8 +3,10 @@
 #include "main.h"
 /**
  * _islower - check lowercase characters
+ * @c: para 1
  *
- * return: always 0
+ * return:  0 or 1
+ *
  */
 
 int _islower(int c)
