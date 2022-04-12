@@ -7,7 +7,15 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char a[8] = "_putchar";
+	int i = 0;
 
+	while(i < 9)
+	{
+		putchar(a[i]);
+		i++;
+	}
+
+	putchar('\n');
 	return (0);
 }
