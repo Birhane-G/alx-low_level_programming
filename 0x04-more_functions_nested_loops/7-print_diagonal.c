@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_diagonal - draw diagonal line on terminal
  * @n: number of times should be print
@@ -19,8 +18,8 @@ void print_diagonal(int n)
 			{
 				_putchar(' ');
 			}
-		_putchar('\\');
-		_putchar('\n');
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
 	else if (n <= 0)
