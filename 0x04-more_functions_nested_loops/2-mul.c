@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * mul - check the code
+ * mul - multiplication of two number
  *
- * Return: sum 
+ * Return: sum
  */
 int mul(int a, int b)
 {
