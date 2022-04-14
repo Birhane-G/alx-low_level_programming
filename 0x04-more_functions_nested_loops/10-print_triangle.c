@@ -3,7 +3,7 @@
  * print_triangle - prints a triangle followed by a new line
  * @size: number of # and rows
  *
- * Return: no return
+ * Return: no return value
  */
 void print_triangle(int size)
 {
@@ -29,6 +29,6 @@ void print_triangle(int size)
 		}
 		else if (length <= 0)
 		{
-		_putchar('\n');
+			_putchar('\n');
 		}
 }
