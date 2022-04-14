@@ -7,7 +7,6 @@
  *
  * Return: no return
  */
-
 void print_line(int n)
 {
 	int i;
