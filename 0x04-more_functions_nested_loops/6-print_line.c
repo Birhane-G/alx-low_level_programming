@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * Print_line - print straight line in terminal
@@ -15,11 +14,12 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0; i <= n; i++)
 		{
 			_putchar('_');
 		}
-		_putchar('_');	
+		_putchar('_');
+	}
 	else if ( n <= 0)
 	{
 	_putchar('\n');
