@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * main - check if the code is uppercase or not
+ * main - check the code
  *
  * Return: 1 or 0.
  */
@@ -11,7 +11,7 @@
 int _isupper(int c)
 {
 	if (isupper(c))
-		return (1);
+	return (1);
 	else
-		return (0);
+	return (0);
 }
