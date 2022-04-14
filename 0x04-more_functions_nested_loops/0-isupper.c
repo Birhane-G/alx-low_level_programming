@@ -3,7 +3,8 @@
 #include <ctype.h>
 
 /**
- * main - check the code
+ * main - _isupper check the code
+ * @c: para 1
  *
  * Return: 1 or 0.
  */
