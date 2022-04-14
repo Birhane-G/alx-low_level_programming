@@ -4,17 +4,23 @@
 
 /**
  * Print_line - print straight line in terminal
- * @n: no of character
+ * @n: no of times the line printed
  *
- * Return: 
+ * Return: no return value
  */
+
 void print_line(int n)
 {
-	int i = 0;
 
-	for (i = 0; i < n; i++)
+	if(n > 0)
 	{
-		_putchar("_");
-	}
+		int i;
+
+		for (i = 0; i < n; i++)
+		{
+			_putchar("_");
+		}
+	
+	else
 	_putchar('\n');
 }
