@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * Print_line - print straight line in terminal
- * @n: number of times the line printed
+ * Print_line - draws a straight line in the terminal
+ * @n: number of times the line character should be  printed
  *
- * Return: no return value
+ * Return: no return
  */
 
 void print_line(int n)
