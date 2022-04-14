@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * print most numbers - print numbers 0 - 9
- * it doesn`t print 2 and 4
+ * print_most_numbers - print numbers 0 - 9
+ * does not print 2 and 4
  *
- * return: no return value
+ * Return: no return value
  */
 
 void print_most_numbers(void)
