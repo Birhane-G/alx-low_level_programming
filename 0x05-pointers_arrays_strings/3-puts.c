@@ -2,9 +2,8 @@
 #include <stdio.h>
 /**
  * _puts - print a string
- * @str: 
- *
- *
+ * @str:
+ * 
  * return: 0
  */
 void _puts(char *str)
