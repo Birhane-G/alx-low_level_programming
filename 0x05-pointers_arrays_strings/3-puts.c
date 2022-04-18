@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _puts - print a string and new line
- * @str: pointer to a string 
- * 
+ * @str: pointer to a string
+ *
  * return: 0
  */
 void _puts(char *str)
