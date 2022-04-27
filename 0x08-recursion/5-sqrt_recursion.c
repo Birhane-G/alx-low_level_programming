@@ -10,11 +10,12 @@
 
 int sqrt_check(int g, int c)
 {
-	if (g * g == c)
-		return (g);
-	if (g * g > c)
+	if (c * c == g)
+		return (c);
+	if (c * g > c)
 		return (-1);
-	return (sqrt_check(g + 1, c));
+
+	return (sqrt_check(g, c + 1));
 }
 
 /**
@@ -26,9 +27,11 @@ int sqrt_check(int g, int c)
 
 int _sqrt_recursion(int n)
 {
-	if (n == 0)
-		return (0);
+	int c = 0;
+	if (n < 0)
+		return (-1);
+	else if (n == 0)
+		return (1);
 
-	return (sqrt_check(1, n));
-	E
+	return (sqrt_check(n, c));
 }
