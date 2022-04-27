@@ -10,9 +10,9 @@
 
 int sqrt_check(int g, int c)
 {
-	if (c * c == g)
+	if ((c * c) == g)
 		return (c);
-	if (c * g > c)
+	if (c ==  g / 2)
 		return (-1);
 
 	return (sqrt_check(g, c + 1));
