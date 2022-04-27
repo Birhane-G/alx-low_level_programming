@@ -4,9 +4,8 @@
  * factorial - factorial of given number
  * @n: number
  *
- * Return: result of @n factorial 
+ * Return: result of @n factorial
  */
-
 int factorial(int n)
 {
 	if (n < 0)
