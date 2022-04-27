@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * _puts_recursion - print a string
+ * @s:pointer
  *
  * Return - void
  */
