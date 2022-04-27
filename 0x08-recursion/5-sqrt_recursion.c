@@ -1,34 +1,34 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * check - check the square root of b
- * @a: guess
- * @b: number to find
+ * sqrt_check - Checks for the square root of c
+ * @g: Guess at sqrt
+ * @c: Number to find sqrt of
  *
- * Return: 1 or b
+ * Return: -1 or sqrt of c
  */
 
-int check(int a, int b)
+int sqrt_check(int g, int c)
 {
-        if (a * a == c)
-                return (a);
-        if (a * a > b)
-                return (-1);
-
-        return (check(a + 1, b));
+	if (g * g == c)
+		return (g);
+	if (g * g > c)
+		return (-1);
+	return (sqrt_check(g + 1, c));
 }
 
 /**
- * _swrt_recursion - returns the natural square root of a number
- * @n: to find sqrt
+ * _sqrt_recursion - Returns the natural square of a number
+ * @n: integer to find sqrt of
  *
- * Return: natural square root or -1 
+ * Return: Natural square root or -1
  */
+
 int _sqrt_recursion(int n)
 {
-	if(n == 0)
+	if (n == 0)
 		return (0);
 
-	return (check(1, n));
+	return (sqrt_check(1, n));
+	E
 }
