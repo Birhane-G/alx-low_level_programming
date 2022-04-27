@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * _print_rev_recursion - print string in reverse
+ * @s: pointer
  *
  * Return - void
  */
