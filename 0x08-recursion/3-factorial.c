@@ -2,9 +2,11 @@
 #include <stdio.h>
 /**
  * factorial - factorial of given number
+ * @n: number
  *
- * Return 
+ * Return: result of @n factorial 
  */
+
 int factorial(int n)
 {
 	if (n < 0)
