@@ -1,5 +1,24 @@
 #include "main.h"
 #include <stdio.h>
+
+/**
+ * check - check the square root of b
+ * @a: guess
+ * @b: number to find
+ *
+ * Return: 1 or b
+ */
+
+int check(int a, int b)
+{
+        if (a * a == c)
+                return (a);
+        if (a * a > b)
+                return (-1);
+
+        return (check(a + 1, b));
+}
+
 /**
  * _swrt_recursion - returns the natural square root of a number
  * @n: to find sqrt
@@ -12,22 +31,4 @@ int _sqrt_recursion(int n)
 		return (0);
 
 	return (check(1, n));
-}
-
-/**
- * check - check the square root of b
- * @a: guess
- * @b: number to find
- *
- * Return: 1 or b
- */
-
-int check(int a, int b)
-{
-	if (a * a == c)
-		return (a);
-	if (a * a > b)
-		return (-1);
-	
-	return (check(a + 1, b));
 }
