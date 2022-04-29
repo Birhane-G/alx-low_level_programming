@@ -2,9 +2,8 @@
 
 /**
  * _isupper - checks is a character is uppercase
- * @c: for integer
- *
- * Return: 1 or  0
+ * @c: carrier integer variable
+ * Return: 1 if true, 0 if false
  */
 
 int _isupper(int c)

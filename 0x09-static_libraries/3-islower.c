@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _islower - Entry point
  * Description: checks is a character is lowercase
@@ -13,9 +14,9 @@ int _islower(int c)
 	{
 		/* refer int c*/
 		if (c == i)
-			{
-				return (1);
-			}
+		{
+			return (1);
+		}
 	}
 	return (0);
 }
